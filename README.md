@@ -4,6 +4,24 @@ Amazon EMR is the industry leading cloud-native big data platform for processing
 
 Learn more about Amazon EMR [here](https://aws.amazon.com/emr/).
 
+# Apache Hudi
+
+Apache Hudi is an open-source data management framework used to simplify incremental data processing and data pipeline development. Apache Hudi enables you to manage data at the record-level in Amazon S3 to simplify Change Data Capture (CDC) and streaming data ingestion, and provides a framework to handle data privacy use cases requiring record level updates and deletes. Data sets managed by Apache Hudi are stored in S3 using open storage formats, and integrations with Presto, Apache Hive, Apache Spark, and AWS Glue Data Catalog give you near real-time access to updated data using familiar tools.
+
+Hudi is integrated with Apache Spark, Apache Hive, and Presto. With Amazon EMR release version 5.28.0 and later, Amazon EMR installs Hudi components by default when Spark, Hive, or Presto are installed. You can use Spark or the Hudi DeltaStreamer utility to create or update Hudi datasets. You can use Hive, Spark, or Presto to query a Hudi dataset interactively or build data processing pipelines using incremental pull. Incremental pull refers to the ability to pull only the data that changed between two actions.
+
+Learn more about Apache Hudi [here](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-hudi.html).
+
+# Hudi Use Cases
+
+Using Hudi, you can perform record-level inserts, updates, and deletes on S3. You create datasets and tables and Hudi manages the underlying data format. Hudi uses Apache Parquet, and Apache Avro for data storage, and includes built-in integrations with Spark, Hive, and Presto, enabling you to query Hudi datasets using the same tools that you use today with near real-time access to fresh data. These features make Hudi suitable for the following use cases:
+
+* Working with streaming data from sensors and other Internet of Things (IoT) devices that require specific data insertion and update events.
+
+* Complying with data privacy regulations in applications where users might choose to be forgotten or modify their consent for how their data can be used.
+
+* Implementing a change data capture (CDC) system that allows you to apply changes to a dataset over time.
+
 ## Labs
 |Part |Lab Name |Lab Description |
 |---- |---- | ----|

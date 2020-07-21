@@ -1,4 +1,4 @@
-# Getting started with the Introduction to EMR Immersion Day
+# Getting started with the EMR Hudi Workshop 
 
 ## Connect to the Event Engine
 

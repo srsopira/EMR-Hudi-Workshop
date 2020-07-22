@@ -50,7 +50,7 @@ aws s3 ls
 
 ```
 
-![screenshot](images/N61.png)
+![screenshot](images/N62.png)
 
 * Please note down the bucket name [emr-hudi-workshop-$AWSACCOUNT], this will be used in the Jupyter notebook for Hudi
 

@@ -29,8 +29,7 @@ Using Hudi, you can perform record-level inserts, updates, and deletes on S3. Yo
 | |[1b - Cloud9](L1b-Cloud9.md) |Create the Cloud9 Environment |
 | |[1c - EMR](L1c-EMRCreate.md) |Create the EMR Cluster |
 |2 |[2a - EMR Notebooks](L2a-Notebook.md) |Create EMR Notebooks/Jupyter |
-| |[2b - Hudi Notebook](L2b-HudiNotebook.md) |Hudi Notebook |
-|5 |[5 - Next Steps](NextSteps.md) |Next Steps for EMR |
+
 
 
 

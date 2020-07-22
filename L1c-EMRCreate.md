@@ -82,7 +82,7 @@ While the EMR Cluster is being provisioned, we will adjust the Security Group fo
 
 ![screenshot](images/EMR13.png)
 
-* On the Security Group page, click the checkbox in front of the master (ElasticMapReduce-master)
+* On the Security Group page, click the checkbox in front of the master (ElasticMapReduce-master) and click the Security Group ID
 
 ![screenshot](images/EMR14.png)
 
@@ -141,5 +141,5 @@ hadoop fs -copyFromLocal /usr/lib/spark/jars/httpclient-4.5.9.jar hdfs:///user/h
 ![screenshot](images/EMR24.png)
 
 ## Congratulations - you have created an EMR Cluster, connected to it via SSH and ready to run the Hudi lab
-Please continue to the [next section](L2a-S3.md).
+Please continue to the [next section](L2a-Notebook.md).
 

@@ -52,7 +52,7 @@ aws s3 ls
 
 ![screenshot](images/N61.png)
 
-* This bucket name will be used in the Jupyter notebook for Hudi
+* Please note down the bucket name [emr-hudi-workshop-$AWSACCOUNT], this will be used in the Jupyter notebook for Hudi
 
 ## Loading the Hudi notebook into Jupyter
 

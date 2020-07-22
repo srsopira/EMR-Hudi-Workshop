@@ -63,7 +63,7 @@ Cloud9 automatically configures the AWS CLI for our user.  We will use the AWS C
 
 ```
 aws ec2 create-key-pair --key-name EMRHudiKeyPair --query 'KeyMaterial' --output text > ~/EMRHudiKeyPair.pem
-chmod 0600 ~/EMRHudiKeyPair.pem
+chmod 0400 ~/EMRHudiKeyPair.pem
 ls -l ~/EMRHudiKeyPair.pem
 
 ```

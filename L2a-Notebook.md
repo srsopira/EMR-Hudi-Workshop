@@ -56,8 +56,12 @@ aws s3 ls
 
 ## Loading the Hudi notebook into Jupyter
 
-* Download the Hudi notebook from [here](https://bit.ly/hudi-notebook-v1)
-* Download the schema file which will be used in the notebook from [here](https://bit.ly/schema-file)
+* The schema file will be used in a step in the Hudi notebook, you need to upload the file into s3 during that step.
+* Download the schema file to your desktop/laptop from [here](https://bit.ly/schema-file)
+
+
+* Download the Hudi notebook to your desktop/laptop from [here](https://bit.ly/hudi-notebook-v1)
+
 
 * Upload the notebook using Jupyter by selecting the upload button and choosing the ipynb file that was downloaded
 

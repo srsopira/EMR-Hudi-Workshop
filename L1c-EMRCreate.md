@@ -127,7 +127,7 @@ While the EMR Cluster is being provisioned, we will adjust the Security Group fo
 
 ### Getting ready for the Hudi Lab
 
-* Execute the following commands in the Cloud9 terminal window
+* Execute the following commands in the Cloud9 terminal window, you don't need to repeat thi again in the notebook
 
 
 ```

@@ -20,6 +20,8 @@ Learn more about Apache Hudi [here](https://docs.aws.amazon.com/emr/latest/Relea
 | |[1b - Cloud9](L1b-Cloud9.md) |Create the Cloud9 Environment |
 | |[1c - EMR](L1c-EMRCreate.md) |Create the EMR Cluster |
 |2 |[2a - EMR Notebooks](L2a-Notebook.md) |Create EMR Notebooks/Jupyter |
+|3 |[Hudi Notebook](https://github.com/srsopira/EMR-Hudi-Workshop/tree/master/notebooks) |Hudi Notebook |
+|4 |[Schema File](https://github.com/srsopira/EMR-Hudi-Workshop/blob/master/schema.avsc) |schema.avsc |
 
 
 
